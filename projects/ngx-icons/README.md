@@ -1,24 +1,21 @@
-# NgxIcons
+# Icons
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+## Use
+Import the IconsModule in the app.module.ts.
 
-## Code scaffolding
+```typescript
+@NgModule({
+    imports: [
+        IconsModule,
+        ...
+    ]
+...
+})
+```
+The icons-Tag has a property name.
 
-Run `ng generate component component-name --project ngx-icons` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-icons`.
-> Note: Don't forget to add `--project ngx-icons` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build ngx-icons` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build ngx-icons`, go to the dist folder `cd dist/ngx-icons` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test ngx-icons` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```html
+<div class="w-12 h-12 mb-5 border border-gray-800 rounded">
+    <icons class="stroke-1 stroke-current" name="2fa"></icons>
+</div>
+```

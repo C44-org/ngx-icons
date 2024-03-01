@@ -3,3 +3,4 @@
  */
 
 export * from './lib/ngx-icons.component';
+export * from './lib/icons'
