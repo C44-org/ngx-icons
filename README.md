@@ -1,5 +1,9 @@
 # Icons
 
+## Demo
+
+[Demo](https://christophhu.github.io/ngx-icons/)
+
 ## Use
 Import the IconsModule in the app.module.ts.
 

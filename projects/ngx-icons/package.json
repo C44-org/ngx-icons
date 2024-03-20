@@ -1,6 +1,16 @@
 {
-  "name": "ngx-icons",
-  "version": "0.0.1",
+  "name": "@christophhu/ngx-icons",
+  "version": "1.0.0",
+  "description": "Create Angular icons.",
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Huschenhoefer",
+    "email": "christoph@nxt.codes"
+  },
+  "keywords": [
+    "angular",
+    "icons"
+  ],
   "peerDependencies": {
     "@angular/common": "^17.2.0",
     "@angular/core": "^17.2.0"
@@ -8,5 +18,13 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristophHu/ngx-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristophHu/ngx-icons/issues"
+  },
+  "homepage": "https://github.com/ChristophHu/ngx-icons#readme",
   "sideEffects": false
 }
