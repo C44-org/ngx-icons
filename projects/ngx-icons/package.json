@@ -1,11 +1,10 @@
 {
-  "name": "@christophhu/ngx-icons",
+  "name": "@c44/ngx-icons",
   "version": "1.0.0",
   "description": "Create Angular icons.",
   "license": "MIT",
   "author": {
-    "name": "Christoph Huschenhoefer",
-    "email": "christoph@nxt.codes"
+    "name": "C44"
   },
   "keywords": [
     "angular",
@@ -20,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChristophHu/ngx-icons.git"
+    "url": "https://github.com/c44-org/ngx-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/ChristophHu/ngx-icons/issues"
+    "url": "https://github.com/c44-org/ngx-icons/issues"
   },
-  "homepage": "https://github.com/ChristophHu/ngx-icons#readme",
+  "homepage": "https://github.com/c44-org/ngx-icons#readme",
   "sideEffects": false
 }

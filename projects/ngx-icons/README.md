@@ -1,5 +1,9 @@
 # Icons
 
+## Demo
+
+[Demo](https://c44-org.github.io/ngx-icons/)
+
 ## Use
 Import the IconsModule in the app.module.ts.
 
